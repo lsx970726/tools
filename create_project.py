@@ -26,14 +26,6 @@ def create_project_structure(project_name):
             'core': {
                 '__init__.py': ''
             },
-            'web': {
-                'public': {'index.html': ''},
-                'package.json': '',
-                'src': {
-                    'compoents': {},
-                    'index.js': ''
-                    }
-            },
             'utils': {
                 '__init__.py': ''
             }
@@ -42,6 +34,14 @@ def create_project_structure(project_name):
             'raw': {},
             'processed': {}
         },
+        'web': {
+                'public': {'index.html': ''},
+                'package.json': '',
+                'src': {
+                    'compoents': {},
+                    'index.js': ''
+                    }
+            },
         'logs': {},
         'config': {
             'config.yaml': '# Configuration settings\n'
