@@ -35,13 +35,13 @@ def create_project_structure(project_name):
             'processed': {}
         },
         'web': {
-                'public': {'index.html': ''},
-                'package.json': '',
-                'src': {
-                    'compoents': {},
-                    'index.js': ''
-                    }
-            },
+            'public': {'index.html': ''},
+            'package.json': '',
+            'src': {
+                'compoents': {},
+                'index.js': ''
+                }
+        },
         'logs': {},
         'config': {
             'config.yaml': '# Configuration settings\n'
