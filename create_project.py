@@ -238,9 +238,9 @@ def generate_directory_tree(startpath, output_file, ignore_patterns=None):
 
         # 添加说明信息
         f.write("## Notes\\n")
-        f.write("* This directory tree was automatically generated.\n")
-        f.write("* Ignored patterns: " + ", ".join(ignore_patterns) + "\n")
-        f.write("* Some directories and files are excluded for clarity.\n")
+        f.write("* This directory tree was automatically generated.\\n")
+        f.write("* Ignored patterns: " + ", ".join(ignore_patterns) + "\\n")
+        f.write("* Some directories and files are excluded for clarity.\\n")
 
 def main():
     # 当前目录作为起始路径
